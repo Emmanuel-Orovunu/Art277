@@ -1,0 +1,166 @@
+/* Basic Style */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ body {
+     background-color: rgb(230,255,230);
+ }
+
+ .main {
+     width: 90%;
+     height: auto;
+ }
+
+ /* Header Style */
+ .header {
+     width: 100%;
+     height: auto;
+ }
+.header > h1 > span {
+    color: rgb(255,192,1);
+}
+.header > h1 {
+color: rgb(235,228,228);
+position: relative;
+float: left;
+margin-top: 25px;
+margin-left: 10px;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation bar overall style */
+nav {
+    width: 100%;
+    background-color: rgb(115,161,152);
+    height: 70px;
+    margin-top: 30px;
+    border: 3px solid rgb(91,137,84);
+    color: rgb(235,228,228));
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    float: right;
+    margin-right: 30px;
+    line-height: 70px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    display: block;
+    font-size: large;
+    color: rgb(235,288,228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Content Overall style */
+.content > h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content > h2 {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.content > img {
+    width: 100%;
+    height: 70vh;
+}
+.content > p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+/* footer allover style */
+.footer {
+    width: 100%;
+    background-color: rgb(115,161,152);
+    height: 70px;
+    margin-bottom: 30px;
+    font-size: larger;
+    line-height: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(91,137,84);
+    color: rgb(235,228,228));
+}
+
+/* Table Style */
+.note > Table {
+    border: 1px solid rgb(85,97,87);
+    width: 100%;
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(102,153,102);
+}
+
+.rat {
+    text-align: left;
+}
+
+.note {
+    background-color: rgb(185,219,192);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Form style */
+.form {
+    background-color: rgb(57, 214, 106);
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.form > h2 {
+    margin-left: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form > h3 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form > form > label {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form > form > input {
+    width: 92%;
+    border-radius: 5px;
+    height: 5vh;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.m > input {
+    width: 92%;
+    border-radius: 5px;
+    height: 10vh;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.m > button {
+    width: 92%;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 5vh;
+    border: 1px solid rgb(84,130,53);
+    color: white;
+    background-color: rgb(84,130,53);
+    text-align: center;
+}
