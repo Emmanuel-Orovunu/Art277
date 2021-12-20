@@ -188,6 +188,9 @@ footer{
     padding: 6px;
     color: blanchedalmond;
 }
+.footer ul li{
+    list-style: none;
+}
 .copy{
     text-transform: uppercase;
 }
@@ -196,4 +199,8 @@ footer{
 }
 .boy h5{
     letter-spacing: 2px;
+}
+.prizes h3{
+    text-transform: uppercase;
+    text-decoration: underline;
 }
