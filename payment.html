@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Tickets Payment Form </title>
+</head>
+<body>
+  <center>
+    <div class="form">
+        <h2>buy tickets</h2>
+        <form method="post">
+            
+        <div class="account">
+            <h3>account</h3>
+            <input type="text" placeholder="First Name" id="name" required>
+            <input type="text" placeholder="Last Name" id="name" required><br><br>
+            <input type="text" placeholder="Email or Phone" id="name" required>
+            <div class="dob">
+                <h3>date of birth</h3>
+                <input type="text"  id="dob" placeholder="Month">
+                <input type="number"  id="dob" placeholder="DD">
+                <input type="number"  id="dob" placeholder="Year">
+            </div>
+            <h3>gender</h3>
+            <div class="gender">
+                <input type="radio" name="gender" id="male" class="radio">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" class="radio">
+                <label for="male">Female</label>
+            </div>
+        </div>
+        <h3>payment details</h3>
+            <div class="payment">
+                <input type="radio" name="pay" id="credit" class="radio">
+                <label for="credit">credit</label>
+                <input type="radio" name="pay" id="pay pal" class="radio">
+                <label for="pay pal">pay pal</label><br><br>
+                <input type="tel"  id="name" placeholder="Card Number">
+                <input type="tel"  id="name" placeholder="CVC">
+
+
+                
+            </div>
+            <button class="submit" type="submit">pay now</button>
+        </form>
+        
+
+    </div>
+  </center>
+</body>
+</html>
