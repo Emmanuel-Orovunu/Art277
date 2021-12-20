@@ -1,137 +1,206 @@
-/* Basic Style */
 *{
     margin: 0;
     padding: 0;
-  }
-   body {
-     background-color: rgb(223,232,248);
-   }
-  .main {
-    width: 80%
-    margin: auto;
-  }
-  
-  /* Header Style */
-  
-  .header {
+    box-sizing: border-box;
+}
+/* nav styling*/
+nav{
     width: 100%;
-    height: auto;
-  }
-  
-  .header > h1 {
-    margin-top: 50px 
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-weight: 400px;
-    color: rgb(40,62,104);
-  }
-  
-  .nav {
-    background-color: rgb(40,62,104)
-  }
-  
-  .nav {
-    margin-top:10px;
-    width: auto;
-    padding: 35px;
-  }
-  
-  ul{
-    list-style-type: none 
-  }
-  
-  ul > li {
-    display: inline-block;
-    word-spacing: 20px;
-    font-size: 18px
-    padding: 20px;
-  }
-  
-  li > a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  /* Banner image */
-  .banner {
-    width: 100%;
-    height: 400px;
-  }
-  
-  /* Content Style */
-  
-  h2{
-    font-size: 30px
-    margin: 10px 0;
-  }
-  
-  .content >p {
-    font-size: 1.2em;
-    line-height: 27px;
-  }
-  
-  .content > p >img {
-    width: 170px;
-    height: 200px;
-    float: right;
-  }
-  
-  /* footer style */
-  .footer{
-    background-color: rgb(40,62,104)
-  }
-  
-  .footer{
-    margin-top: 30px;
-    padding: 35px;
-    font-size: 1.2em
-  }
-  .footer{
-    color: #fff
-  }
-  
-  /* Page style */
-  .page{
-    height: 200px;
-    margin-top: 2;
-    background-color: rgb(9,23,49);
-  }
-  
-  
-  .page{
-    text-align: center;
-    color: #fff;
-    padding: 50px;
-    height: 50px;
-  }
-  
-  /* Healing style*/
-  .healing h2{
-    text-align: center 
-  }
-  .healing > p{
-    font-size: 1.2em
+    height: 60px;
+    background-color: rgba(49, 2, 2,.8);
+    padding: 5px;
+    margin-top: 0;
     
-  }
-  img{
-    width: 160px;
-    float: left;
-    height: 200px 
-  }
-  
-  /* Title style */
-  .title{
-    height: 200px;
-    margin-top: 2px;
-
-  }
-  
-  .title{
-    background-color: rgb(9,23,49);
+}
+.wrapper h1{
+    text-transform: uppercase;
+    animation: title 6s;
+    color: blanchedalmond;
+    letter-spacing: 3px;
+    font-style: oblique;
+}
+/* @keyframes for title*/
+@keyframes title{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        color: blanchedalmond;
+    }
+}
+/* nav-links start*/
+nav li{
+    list-style: none;
+}
+.nav-links{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+.nav-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+.nav-links a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+/* nav-links end*/
+.container{
+      width: 500px;
+      background-color: rgba(0, 13, 14, 0.2);
+      box-shadow: 10px 5px 20px rgba(0,0,0, .4);
+      padding: 5px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+}
+.container h2{
     text-align: center;
-    color: #fff;
-    padding: 50px;
-    height: 50px;
-  }
-  
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 3px;
+}
+.buy-tickets{
+    margin-top: 40px;
+}
+.buy-tickets h3{
+     text-transform: uppercase;
+     padding: 7px;
+     letter-spacing: 3px;
+    
+}
+button{
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    
+}
+.btn1{
+    background-color: rgb(172, 123, 2);
+}
+.btn2{
+    background-color: green;
+}
+.container p{
+    font-weight: bold;
+}
+.form{
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0, .4);
+    margin-top: 30px;
+}
+.form h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: seagreen;
+    padding: 5px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.form h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px;
+}
+#name{
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+    margin-top: 12px;
+}
+#dob{
+    width: 70px;
+    padding: 5px;
+    margin-top: 12px;
+}
+.gender{
+    margin-top: 6px;
+    margin-bottom: 8px;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.payment{
+    margin-top: 6px;
+    margin-bottom: 8px;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.submit{
+    width: 100%;
+    background-color: seagreen;
+
+}
+.width{
+    width: 100%;
+}
+/* main-content styling*/
+.main-content{
+    width: 700px;
+    
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    padding: 3px;
+    margin-top: 15px;
+}
+.main-content P{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.boy{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    image-orientation: initial;
+}
+.prizes{
+    margin-top: 10px;
+
+}
+.footer{
+   width: 100%;
+   background-color: rgba(49, 2, 2,.8);
+   padding: 4px;
+   border-radius: 20px;
+   color: blanchedalmond;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px;
+    color: blanchedalmond;
+}
+.footer ul li{
+    list-style: none;
+}
+.copy{
+    text-transform: uppercase;
+}
+.footer h4{
+    text-transform: uppercase;
+}
+.boy h5{
+    letter-spacing: 2px;
+}
+.prizes h3{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
